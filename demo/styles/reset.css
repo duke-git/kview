@@ -1,0 +1,38 @@
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea/* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 12px/1.5 "微软雅黑","Helvetica Neue","Hiragino Sans GB",Arial,sans-serif;
+}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a {color: #666}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+
+/** 重置表格元素 **/
+input:disabled,
+textarea:disabled{
+    background-color: #fff;
+}
+.hide{
+	display: none;
+}
