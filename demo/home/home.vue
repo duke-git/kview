@@ -1,7 +1,7 @@
 <template>
     <div class="home-main-wrap">
         <div class="title-container">
-            <span>金山云数据部控制台前端组件库</span>
+            <span>vue前端组件库</span>
         </div>
         <div class="logo-container">
             <div class="kview-logo"></div>
@@ -9,11 +9,6 @@
         <div class="components-comment">
             <p>An UI components library based on vue.js.<p>
             <p>控制台前端组件库，基于vue2.0。目前版本v1.0.7。<p>
-            <p>git repository: 
-                <a href="http://newgit.op.ksyun.com/ksc-data-fe/ksc-console-kview" style="color: blue;">
-                    git@newgit.op.ksyun.com:ksc-data-fe/ksc-console-kview.git
-                </a>
-            </p>
         </div>
         <div class="tech-container">
             <div class="tech-item-es6">
